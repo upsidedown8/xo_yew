@@ -1,0 +1,43 @@
+html {
+    background-color: #e5e5e5;
+    font-family: monospace;
+    text-align: center;
+}
+
+.game-status {
+    font-size: 2rem;
+    padding: 50px 0;
+}
+
+.board {
+    width: 450px;
+    margin: auto;
+}
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.square {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+    border: 1px solid #999;
+    float: left;
+    font-size: 5rem;
+    line-height: 150px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+}
+
+.square:focus {
+    background: #e5e5e5;
+}
+
+.btn-reset {
+    margin: 20px;
+}
