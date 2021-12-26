@@ -1,0 +1,8 @@
+[package]
+name = "xo_yew"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+xo = { git = "https://github.com/upsidedown8/xo" }
+yew = "0.19"
